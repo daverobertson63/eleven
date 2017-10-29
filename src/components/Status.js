@@ -9,7 +9,9 @@ const Status = ({ deckSize, victory }) => {
   } else {
     message = deckSize + " cards remaining";
   }
+  console.log(message)
   return <div className="status">{message}</div>;
+  //return <div className="status">{message}</div>;
 }
 
 export default Status;

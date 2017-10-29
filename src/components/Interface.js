@@ -1,7 +1,8 @@
 import React from 'react';
 
 const Interface = ({ onFoundationClick, onTargetClick, onUndoClick, onResetClick, foundationsDisabled, disabledStatuses, undoDisabled }) => {
-  return (
+
+    return (
     <div style={{marginBottom: "16px"}}className="interface">
       <div className="foundation-buttons">
         <button style={{width:"25%"}} onClick={() => { onFoundationClick(0) }} disabled={foundationsDisabled}>Tableau 1</button>
